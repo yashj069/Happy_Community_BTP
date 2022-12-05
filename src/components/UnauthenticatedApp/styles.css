@@ -1,0 +1,34 @@
+.login {
+    background-color: rgb(70, 18, 116);
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: medium;
+    font-weight: 500;
+}
+.login:hover{
+    background-color: rgb(98, 36, 152);
+    color: white;
+    cursor: pointer;
+
+}
+.homePageHeading1{
+    font-size: 40px;
+    font-family: cursive;
+    color: rgb(10, 27, 120);
+    margin-bottom: 20px;
+}
+.mainDiv
+{
+    height:"100vh";
+    width:"100vw";
+    background-repeat:'no-repeat';
+    background-size:"cover";
+}
+.subDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5vh;
+}

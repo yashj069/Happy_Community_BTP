@@ -1,0 +1,63 @@
+*{
+    margin:0px;
+}
+.interestBackgroundBody
+{
+    
+    /* background: url("../home/../../images/cardBackground.jpg");  */
+    background: #a8c0ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #502b96, #bca8ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    min-width: 100vw;
+    width: fit-content;
+    min-height: 100vh;
+    height: fit-content;
+}
+.leftPanel
+{
+    min-height: 100vh;
+    height: "fit-content";
+    width: 15vw;
+    background-color: rgb(242, 247, 249);
+}
+.heading1{
+    font-size: 40px;
+    font-family: cursive;
+    color: rgb(10, 27, 120);
+}
+.interestCardsStyle{
+    display: flex;
+    flex: 1 1 20%;
+    margin-bottom: 35px;
+    align-items: center;
+    justify-content: center;
+}
+.interestStyleCardDiv{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-top: 40px;
+}
+.suggestionButton{
+    background-color: rgb(14, 130, 27);
+    padding: 10px 20px;
+    color: white;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 10px;
+}
+.suggestionButton:hover{
+    transform: scale(1.15);
+    transition: 0.2s;
+    background-color: rgb(13, 157, 29);
+}
+/* .allChatsRowDivide{
+    display: flex;
+    flex: 1 1 30%;
+    margin-bottom: 35px;
+    align-items: center;
+    justify-content: center;
+} */

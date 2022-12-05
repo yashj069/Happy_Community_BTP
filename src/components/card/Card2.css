@@ -1,0 +1,65 @@
+.border2{
+    border-radius: 10%;
+    box-shadow: rgba(33, 33, 33, 0) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    /* padding: 14px 80px 18px 36px; */
+    background-color: rgba(241, 237, 237, 0.977);
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    
+}
+.border2:hover{
+    transform: scale(1.05);
+    background-color: rgb(241, 241, 241);
+}
+/* .cardInnerBox2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+.cardInnerBoxHeading21{
+    margin-bottom: 20px;
+    font-family: cursive;
+    font-size: large;
+    color: rgb(58, 5, 108);
+    text-align: center;
+}
+.headingDiv{
+    background-color: aqua;
+    height: 50%;
+    display: flex;
+    align-items: flex-end;
+}
+.cardMessage1{
+    height: 50%;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    font-family: montserra;
+    font-size: 20px;
+}
+.cardMessagePara1{
+    text-align: center;
+    width: 100%;
+    padding: 3px;
+    font-weight: 700;
+    color: rgb(58, 5, 108);
+}
+.cardMessage2{
+    height: 50%;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    font-family: montserra;
+    font-size: 18px;
+}
+.cardMessagePara2{
+    text-align: center;
+    width: 100%;
+    background-color: rgb(58, 5, 108);
+    padding: 5px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}

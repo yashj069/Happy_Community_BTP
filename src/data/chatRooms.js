@@ -1,0 +1,26 @@
+const chatRooms = [
+	{id: 'carrers', title: '📈 Carrers 📈', tags: ["placements","jobs","opprtunities","website"], desc: "Are you looking for job! you can find one here for sure!"},
+	{id: 'MentalCare', title: '🧠 Mental Care 🧠', tags: ["lonliness","sad","health","depression","anxeity","stress"], desc: "Do you often gets stressed, wanna feel relieved, let's talk!!"},
+	{id: 'brokers', title: '🏦 Brokers 🏦', tags: ["accomodation", "apartments", "flats"], desc: "Get a comfortable and wonderfull place to live, you can get one here"},
+	{id: 'physicalcare', title: 'Physical Care', tags: ["health","beauty","body care","fitness"], desc: "Get to know how to be healty in such polluted environment, this is the right group"},
+	{id: 'music', title: '🎵 Music 🎵', tags: ["singing","vocals","music","guitarist"], desc: "Wanna vibe and do jamming, get your crew here"},
+	{id: 'dance', title: '💃 Dance 💃', tags: ["fitness","dance","stunts"], desc: "Get your dancing foot here, meet with right people you can sync with"},
+	{id: 'sports', title: '⚽ Sports ⚽', tags: ["games","health","fitness","athelete"], desc: "Wannna participate in a competition and show-oof your skills"},
+	{id: 'developers', title: '💻 Developers 💻', tags: ["development","website","app","jobs"], desc: "Get your perfect project partners, it's the right group, join here"},
+    { id: 'dogs', title: '🐶 AnimalLovers 🐶' , tags : ["animallover","dog"], desc: "Join here! if you are looking for a pet or loves animals"},
+    { id: 'food', title: '🍔 Foody 🍔',tags : ["food","chailover","fitness"], desc: "Hey! foodies here you can find the people who has same tastes" },
+    { id: 'general', title: '💬 General 💬',tags : ["animallover","dog","study","gym"], desc: "Are you confused, what to join, find people of your own kind"},
+    { id: 'news', title: '🗞 News 🗞' ,tags : ["politics","newspaper","election"], desc: "Intrested in news! want to know what's happning around the world"},
+    {id: 'colleges', title: '🧑‍🎓Colleges🧑‍🎓', tags: ["placements","jobs","festivals"], desc: "Get to know the college that suits you best"},
+    {id: 'gym', title: '💪 Gym 💪', tags: ["health","fitness","weight-lifting"], desc: "Are you a fitness freak, show off your knowledge about muscles"},
+    {id: 'yoga', title: '🧘‍ Yoga 🧘‍', tags: ["health","fitness","meditation"], desc: "Do you often want peace, here is info about yoga"},
+    {id: 'cooking', title: '👨‍🍳 Cooking 👨‍🍳', tags: ["health","cooking","dishes"], desc: "Hey! here are the people who create different tastes around the world"},
+    {id: 'drama', title: '🎞️ Drama 🎞️', tags: ["fantasy","drama","plays","acts"], desc: "Meet people for your who fits in your act perfectly"},
+    {id: 'travelling', title: '🧳 Travelling 🧳', tags: ["vacation","sight seeing"], desc: "Join here! if you wants to explore world, or planning vaccations"},
+    {id: 'elections', title: '🗳️ Elections 🗳️', tags: ["leadership","speeches","election"], desc: "Wants hot-topics or problems to be discussed in election, here we go!"},
+    {id: 'games', title: '🎮 Games 🎮', tags: ["games","mobiles games","pc games"], desc: "Hey gamers! here is a opprtunity for you, play and win"},
+    {id: 'fashion', title: '👗 Fashion 👗', tags: ["clothes","beauty","confidence"], desc: "First impression is based on looks, so follow the current trend"},
+    {id: 'intrumentplaying', title: '🎹 Intrument Playing 🎹', tags: ["music","guitarist","drumming","piano"], desc: "Interested in music and instruments, join fast!!"}, 
+   ];
+
+export { chatRooms };
