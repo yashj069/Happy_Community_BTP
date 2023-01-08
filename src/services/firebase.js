@@ -27,7 +27,7 @@ import "react-toastify/dist/ReactToastify.css";
 const firebaseConfig = {
   apiKey: "AIzaSyDdaCH-_G3GzakFPLjfTFKQPQCc927GfL8",
   authDomain: "happy-community-40e8f.firebaseapp.com",
-  projectId: "happy-community-40e8f",
+  projectId: "happy-communityn-40e8f",
   storageBucket: "happy-community-40e8f.appspot.com",
   messagingSenderId: "816114995447",
   appId: "1:816114995447:web:fbd14c1357ee5b9591c3f2",

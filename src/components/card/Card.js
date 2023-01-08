@@ -21,7 +21,6 @@ const Card = (props) => {
             <p class="card-text" className="cardInnerBoxText1">
               {props.room.desc}
             </p>
-
             {props.isJoin && (
               <button
                 type="button"
